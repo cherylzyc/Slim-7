@@ -1,0 +1,383 @@
+
+.logo{
+    width: 120px;
+    padding-top: 1.3em;
+    padding-bottom: 0.2em;
+}
+.navbar-default{
+    background-color: #CDE6BA;
+    border-color: #009245;
+    /*#89AA6B  F4FFEB*/
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color: #009245;
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #603813;
+}
+.navbar-default .navbar-toggle{
+    border-color: #CDE6BA;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    background: #CDE6BA;
+}
+.carousel-caption{
+    color: #603813;
+    background: rgba(255,255,255,0.5);
+    text-shadow:none;
+    bottom: 35%;
+    padding: 5% 20%;
+
+    
+}
+.navbar-nav>li>.dropdown-menu{
+     background-color: #CDE6BA;
+    border-color:  #009245;
+    text-align: right;
+    padding-right: 12px;
+    margin-top: 5px;
+}
+
+/* login */
+li>button{
+    background: rgba(0,0,0,0);
+    border-width: 0;
+    padding-top: 15px;
+    color:#603813;
+}
+/*.carousel-caption .h1, h1{
+    font-size: 150%;
+
+}*/
+
+.marketing{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+/*card */
+.form-control{
+    margin-top: 7px;
+}
+
+.card-container.card {
+    max-width: 350px;
+    padding: 40px 40px;
+}
+.card-container.card2{
+     max-width: 450px;
+    padding: 40px 40px;
+    height: auto;
+    overflow: auto;
+}
+.btn-warning{
+    background:#009245;
+    border-color: #009245;
+}
+.btn-warning:hover{
+    background:#603813;
+    border-color: #603813;
+}
+.card {
+    background-color: #ffffff;
+    /* just in case there no content*/
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    margin-top: 50px;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.card2 {
+    background-color: #ffffff;
+    /* just in case there no content*/
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    margin-top: 50px;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.footer{
+    text-align: center;
+    background: #603813;
+    color: #fff;
+}
+.well{
+    background-color: #603813;
+    border-color: #603813;
+}
+.footer p {
+    background: #009245;
+    color: #603813;
+}
+
+
+.exercisetype{
+    background: #009245;
+    text-align: center;
+    padding: .5em;
+
+}
+
+
+
+.post-content {
+  
+    left:0;
+    top:0;
+    bottom:0;
+    right:0;
+    position: absolute;
+    bottom: 0px;
+    margin-top: 13%;
+}
+.thumbnail {
+    position:relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.thumbnail-small {
+    position:relative;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 5px;
+}
+ .workoutimg{
+
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .workoutimg img{
+    width: 100%;
+}
+.center{
+    text-align: center;
+}
+.tumbnail img {
+    position: relative;
+    margin: 0 auto;
+   
+}
+.caption{
+    text-align: center;
+    color:white !important;
+    font-size: large !important;
+}
+
+
+.thumbnail a {
+    color: white;
+}
+
+
+.tumbnail-small a{
+    color: #009245;
+}
+
+
+
+
+.containertimer{
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+}
+
+body{
+    font-family: helvetica;
+    line-height: 2.428571;
+}
+.timer{
+    width: 400px;
+    /*background-color: yellow;*/
+    float: left;
+    height: 370px;
+}
+.timer-background{
+    width: 100%;
+}
+
+
+.title{
+    font-weight: 200;
+    padding-top: 40px;
+    text-align: center;
+}
+.time{
+    text-align: center;
+    color:#451613;
+    font-size: 3.5em;
+    font-weight: 800;
+    position: relative;
+    top: -210px;
+    font-style: bold;
+}
+.identify{
+    text-align: center;
+    color:#451613;
+    font-size: 2.5em;
+    font-weight: 500;
+    position: relative;
+    top: -175px;
+    font-style: bold;
+}
+
+.start-button ,.pause-button{
+    
+    margin-left: 20%;
+    color:red;
+    width: 60%;
+    height: 80px;
+    line-height: 40px;
+    margin-top: 30px;
+    font-size: .9em;
+    border: 1px #689b61 solid;
+    color: #451613;
+    background-color: #63c658;
+    cursor: pointer;
+    font-style: normal;
+    width: 60%;
+    height: 40px;
+    /*margin-top: 40px;*/
+    margin-bottom: 20px;
+    margin-left: 20%;
+    outline: 0;
+}
+/*.pause-button{
+    
+    margin-left: 110px;
+    color:red;
+    width: 60%;
+    height: 80px;
+}*/
+.none{
+    display:none;
+}
+
+
+/*history.php*/
+.page-header{
+    
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 25px;
+    color: grey;
+    
+}
+.widthcontrol{
+    width:325px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+}
+#result{
+    
+    
+    border-color: #e4e4e4;
+    border-style: solid;
+    border-width: 1px;
+}
+#result ul {
+ display: inline-table;
+ padding-right: 10px;
+ padding-left: 0;
+ margin-top: 6px;
+ 
+}
+#result ul:first-child{
+    padding-left: 10px;
+     padding-right: 4px;
+}
+#result ul li{
+    list-style: none;
+     padding: 4px;
+
+}
+#result li:nth-child(2n){
+   background:#EFF7E9;
+   /* #f9f9f9 */
+}
+#result span{
+    letter-spacing: 0.3em;
+    margin-left: 1em;
+    font-size: 15px;
+    color: grey;
+}
+#result hr{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.type{
+    padding-top: 0.4em;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-color: #e4e4e4;
+}
+.widthcontrol button{
+    margin: 8px 0;
+
+}
+@media (max-width:800px){
+    .containertimer{
+        width: 400px;
+    }
+} 
+
+@media screen and (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+    .center{
+    font-size: 100%;
+    }
+}
+
+.email{
+    text-align: center;
+     color:#009245;
+}
+
+
+
+.loguout{
+    cursor: pointer; 
+}
+
+.accountinfo{
+    cursor: pointer; 
+}
+
+
+
+
+
+
+
+
+

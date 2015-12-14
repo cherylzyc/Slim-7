@@ -1,0 +1,58 @@
+body{padding-top:30px;}
+
+.glyphicon {  margin-bottom: 10px;margin-right: 10px;}
+
+small {
+display: block;
+line-height: 1.428571429;
+color: #999;
+}
+.center-block {  
+  display: block;  
+  margin-right: auto;  
+  margin-left: auto;  
+}
+.myprofile{
+	border-width: 1px;
+	border-color: rgba(0,0,0,0.2);
+	background: #ffffff;
+	border-style: dashed;
+	padding: 8px ;
+	margin: 3px;
+
+
+}
+.backcolor{
+	background: rgba(206, 230, 187, 0.35);
+	padding: 10px 0 3px 10px;
+	border-color: #009245;
+	border-width: 1px;
+	border-style:solid;
+	border-radius: 5px;
+}
+blockquote{
+	border-color: #009245;
+}
+.buttonBox{
+	margin-top: 5px;
+}
+#submit{
+
+	margin-top: 20px;
+}
+
+@media(max-width: 460px){
+	.col-xxs-12{
+		width: 100%;
+
+	}
+	.row{
+		margin-left:0;
+		margin-right: 0;
+	}
+	blockquote{
+		margin-top: 15px;
+	}
+}
+
+}
